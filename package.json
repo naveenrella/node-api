@@ -1,0 +1,17 @@
+{
+  "name": "clerkie-test",
+  "version": "1.0.0",
+  "description": "assessment test",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "mongo-mac": "mkdir mongo-db; mongod --dbpath mongo-db"
+  },
+  "author": "naveen rella",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.4",
+    "moment": "^2.22.2",
+    "mongodb": "^3.1.10"
+  }
+}
